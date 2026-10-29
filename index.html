@@ -1,396 +1,159 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!doctype html>
+<html lang="en" data-lang="en">
 <head>
-    <!-- Google Tag Manager -->
-    <script>(function (w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({
-            'gtm.start':
-                new Date().getTime(), event: 'gtm.js'
-        });
-        var f = d.getElementsByTagName(s)[0],
-            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
-        j.async = true;
-        j.src =
-            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-        f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-5BB8W2X');</script>
-    <!-- End Google Tag Manager -->
-    <link rel="icon" type="image/png" href="/favicon.png"/>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-    <title>Personal Portfolio</title>
-    <meta content="" name="descriptison">
-    <meta content="" name="keywords">
-
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-          rel="stylesheet">
-
-    <!-- Vendor CSS Files -->
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
-
-    <!-- Template Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet">
-
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-169007209-3"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-
-        gtag('js', new Date());
-
-        gtag('config', 'UA-169007209-3');
-    </script>
-
-
-    <!-- =======================================================
-    * Template Name: Personal - v2.1.0
-    * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-    * Author: BootstrapMade.com
-    * License: https://bootstrapmade.com/license/
-    ======================================================== -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Leonardo Almeida · DevOps Engineer</title>
+  <meta name="description" content="Leonardo Almeida, DevOps Engineer from Brazil: Kubernetes, OpenShift, Azure DevOps and Linux. Learning in public.">
+  <meta property="og:title" content="Leonardo Almeida · DevOps Engineer">
+  <meta property="og:description" content="Kubernetes, OpenShift, Azure DevOps and Linux. Learning in public.">
+  <meta property="og:image" content="https://leoalmeidasa.github.io/assets/img/profile.webp">
+  <meta property="og:url" content="https://leoalmeidasa.github.io/">
+  <meta property="og:type" content="profile">
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="stylesheet" href="assets/css/site.css">
+  <script src="assets/js/site.js" defer></script>
 </head>
-
 <body>
+  <header class="top">
+    <nav class="wrap nav" aria-label="Main">
+      <a class="brand" href="#top">leoalmeidasa</a>
+      <div class="links">
+        <a href="#about"><span lang="en">About</span><span lang="pt">Sobre</span></a>
+        <a href="#experience"><span lang="en">Experience</span><span lang="pt">Experiência</span></a>
+        <a href="#projects"><span lang="en">Projects</span><span lang="pt">Projetos</span></a>
+        <a href="#now"><span lang="en">Now</span><span lang="pt">Agora</span></a>
+        <a href="#contact"><span lang="en">Contact</span><span lang="pt">Contato</span></a>
+      </div>
+      <div class="toggles">
+        <button class="pill" id="langToggle" type="button" aria-label="Mudar para português / Switch to English">
+          <span lang="en">PT</span><span lang="pt">EN</span>
+        </button>
+        <button class="pill" id="themeToggle" type="button" aria-label="Toggle light/dark theme">◐</button>
+      </div>
+    </nav>
+  </header>
 
-<!-- Google Tag Manager (noscript) -->
-<noscript>
-    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5BB8W2X"
-            height="0" width="0" style="display:none;visibility:hidden"></iframe>
-</noscript>
-<!-- End Google Tag Manager (noscript) -->
-<!-- ======= Header ======= -->
-<header id="header" class="header-tops">
-
-    <div class="container">
-
-        <h1><a href="index.html">Leonardo Almeida</a></h1>
-        <h2 style="color:#fff">I'm <span class="typing" style="color:#12D640"></span></h2>
-        <nav class="nav-menu d-none d-lg-block">
-            <ul>
-                <li class="active"><a href="#header"> <span>Home</span></a></li>
-                <li><a href="#about"><span>About</span></a></li>
-                <li><a href="#education"> <span>Education</span></a></li>
-                <!--          <li><a href="#projects"> <span>Projects</span></a></li>-->
-                <li><a href="#portfolio"> <span>Projects</span></a></li>
-                <li><a href="#skills"> <span>Skills</span></a></li>
-                <li><a href="https://drive.google.com/file/d/10WHTKxevb-sAfhsY0Ye0DVFOEhkUlg7P/view?usp=drive_link"
-                       target="_blank"> <span>Resume</span></a></li>
-                <!-- <li><a href="#links"> <span>Resume & Links</span></a></li> -->
-            </ul>
-        </nav><!-- .nav-menu -->
-
-        <div class="social-links">
-            <a href="https://www.linkedin.com/in/leonardoalmeidafranco/" target="_blank" class="linkedin"><i
-                    class="bx bxl-linkedin"></i></a>
-            <a href="https://github.com/leoalmeidasa" target="_blank" class="github"><i class="bx bxl-github"></i></a>
-            <a href="mailto:leoalmeidasa@gmail.com" target="_blank" class="google"><i class="bx bxl-google"></i></a>
-
+  <main id="top">
+    <section class="wrap hero">
+      <img class="avatar" src="assets/img/profile.webp" width="160" height="160" alt="Leonardo Almeida">
+      <div>
+        <p class="kicker"><span lang="en">Hi, I'm</span><span lang="pt">Olá, eu sou o</span></p>
+        <h1>Leonardo Almeida</h1>
+        <p class="role">DevOps Engineer · Kubernetes · OpenShift · Azure DevOps</p>
+        <p class="lead">
+          <span lang="en">I keep applications running on Kubernetes and OpenShift, build CI/CD pipelines and fix the Linux and networking problems in between. I'm based in Brazil and learning in public.</span>
+          <span lang="pt">Mantenho aplicações rodando em Kubernetes e OpenShift, construo pipelines de CI/CD e resolvo os problemas de Linux e rede no meio do caminho. Moro no Brasil e estudo em público.</span>
+        </p>
+        <div class="cta">
+          <a class="btn primary" href="https://www.linkedin.com/in/leonardoalmeidafranco/" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn" href="https://github.com/leoalmeidasa" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn" href="mailto:leoalmeidasa@gmail.com">Email</a>
         </div>
+      </div>
+    </section>
 
-    </div>
-</header><!-- End Header -->
+    <section class="wrap" id="about">
+      <h2><span lang="en">About</span><span lang="pt">Sobre</span></h2>
+      <p>
+        <span lang="en">I started as a full stack Ruby on Rails developer and moved into DevOps. That background helps: when a deploy fails, I can read both the pipeline and the application logs. Day to day I work with Kubernetes and OpenShift clusters, Azure DevOps and Tekton pipelines, Docker images and Linux servers.</span>
+        <span lang="pt">Comecei como desenvolvedor full stack Ruby on Rails e migrei para DevOps. Essa base ajuda: quando um deploy falha, consigo ler tanto o pipeline quanto os logs da aplicação. No dia a dia trabalho com clusters Kubernetes e OpenShift, pipelines no Azure DevOps e Tekton, imagens Docker e servidores Linux.</span>
+      </p>
+      <ul class="skills">
+        <li><strong><span lang="en">Containers &amp; orchestration</span><span lang="pt">Containers e orquestração</span></strong> Kubernetes, OpenShift, k3s, Docker, Helm, Portainer</li>
+        <li><strong>CI/CD</strong> Azure DevOps Pipelines, Tekton, GitHub Actions</li>
+        <li><strong><span lang="en">Linux &amp; networking</span><span lang="pt">Linux e redes</span></strong> systemd, nftables, DNS, VPN, MTU/MSS</li>
+        <li><strong><span lang="en">Infrastructure as code</span><span lang="pt">Infraestrutura como código</span></strong> Terraform, Ansible</li>
+        <li><strong><span lang="en">Observability</span><span lang="pt">Observabilidade</span></strong> Prometheus, Grafana, Loki</li>
+        <li><strong><span lang="en">Applications</span><span lang="pt">Aplicações</span></strong> Ruby on Rails, PostgreSQL, Nginx</li>
+      </ul>
+    </section>
 
-<!-- ======= About Section ======= -->
-<section id="about" class="about">
+    <section class="wrap" id="experience">
+      <h2><span lang="en">Experience</span><span lang="pt">Experiência</span></h2>
+      <ol class="timeline">
+        <li>
+          <p class="when">2025 – <span lang="en">present</span><span lang="pt">atual</span></p>
+          <h3>DevOps Engineer</h3>
+          <ul>
+            <li><span lang="en">Run and migrate Rails workloads on Kubernetes (k3s) and OpenShift for public-sector clients.</span><span lang="pt">Opero e migro aplicações Rails em Kubernetes (k3s) e OpenShift para clientes do setor público.</span></li>
+            <li><span lang="en">Build and maintain Azure DevOps and Tekton pipelines, including production cutovers.</span><span lang="pt">Construo e mantenho pipelines no Azure DevOps e Tekton, incluindo cutovers em produção.</span></li>
+            <li><span lang="en">Right-size requests/limits across dozens of deployments and remediate leaked cluster credentials.</span><span lang="pt">Ajusto requests/limits em dezenas de deployments e corrijo vazamentos de credenciais de cluster.</span></li>
+            <li><span lang="en">Troubleshoot Linux servers, logs and VPN networking (MTU/MSS, split DNS).</span><span lang="pt">Resolvo problemas de servidores Linux, logs e rede de VPN (MTU/MSS, split DNS).</span></li>
+          </ul>
+        </li>
+        <li>
+          <p class="when"><span lang="en">Before 2025</span><span lang="pt">Antes de 2025</span></p>
+          <h3><span lang="en">Full Stack Developer · Ruby on Rails</span><span lang="pt">Desenvolvedor Full Stack · Ruby on Rails</span></h3>
+          <ul>
+            <li><span lang="en">Built web applications with Rails, PostgreSQL, Vue.js and RSpec.</span><span lang="pt">Desenvolvi aplicações web com Rails, PostgreSQL, Vue.js e RSpec.</span></li>
+          </ul>
+        </li>
+      </ol>
+      <h3 class="sub"><span lang="en">Education</span><span lang="pt">Formação</span></h3>
+      <p><span lang="en">Bachelor of Information Systems · Faculdade Sapiens · 2021</span><span lang="pt">Bacharelado em Sistemas de Informação · Faculdade Sapiens · 2021</span></p>
+    </section>
 
-    <!-- ======= About Me ======= -->
-    <div class="about-me container">
+    <section class="wrap" id="projects">
+      <h2><span lang="en">Projects</span><span lang="pt">Projetos</span></h2>
+      <div class="cards">
+        <article class="card">
+          <h3><a href="https://github.com/leoalmeidasa/trilha" target="_blank" rel="noopener">trilha</a></h3>
+          <p><span lang="en">Study-track app for DevOps + English with daily goals, a streak and a free/paid resource catalog. Static site on unprivileged Nginx in Docker, with CI and a GitHub Pages deploy.</span><span lang="pt">App de trilha de estudos DevOps + inglês com metas diárias, sequência de dias e catálogo de recursos grátis e pagos. Site estático em Nginx não-root no Docker, com CI e deploy no GitHub Pages.</span></p>
+          <p class="tags">JavaScript · Docker · Nginx · GitHub Actions</p>
+          <p><a href="https://leoalmeidasa.github.io/trilha/" target="_blank" rel="noopener"><span lang="en">Live demo →</span><span lang="pt">Ver no ar →</span></a></p>
+        </article>
+        <article class="card">
+          <h3><a href="https://github.com/jcottobboni/leme" target="_blank" rel="noopener">leme</a> <span class="badge"><span lang="en">contributor</span><span lang="pt">contribuidor</span></span></h3>
+          <p><span lang="en">Agentless desktop client for Kubernetes and OpenShift. I added OpenShift project topology, kubeconfig folders and production-safety rules, and fixed a black-screen bug.</span><span lang="pt">Cliente desktop sem agente para Kubernetes e OpenShift. Adicionei topologia de projetos OpenShift, pastas de kubeconfig e regras de segurança para produção, e corrigi um bug de tela preta.</span></p>
+          <p class="tags">Go · Kubernetes · OpenShift</p>
+          <p><a href="https://github.com/jcottobboni/leme/pulls?q=is%3Apr+author%3Aleoalmeidasa+is%3Amerged" target="_blank" rel="noopener"><span lang="en">Merged PRs →</span><span lang="pt">PRs mesclados →</span></a></p>
+        </article>
+        <article class="card">
+          <h3><a href="https://github.com/leoalmeidasa/token-usage" target="_blank" rel="noopener">token-usage</a></h3>
+          <p><span lang="en">Local dashboard for token usage and remaining quotas of AI coding agents.</span><span lang="pt">Painel local de consumo de tokens e cotas restantes de agentes de IA para código.</span></p>
+          <p class="tags">Python · SQLite</p>
+        </article>
+        <article class="card">
+          <h3><a href="https://github.com/leoalmeidasa/Terraform" target="_blank" rel="noopener">Terraform</a></h3>
+          <p><span lang="en">Infrastructure as code studies with Terraform.</span><span lang="pt">Estudos de infraestrutura como código com Terraform.</span></p>
+          <p class="tags">HCL · Terraform</p>
+        </article>
+      </div>
+      <details class="older">
+        <summary><span lang="en">Earlier Rails work</span><span lang="pt">Projetos Rails anteriores</span></summary>
+        <ul>
+          <li><a href="https://github.com/leoalmeidasa/CryptoWallet" target="_blank" rel="noopener">CryptoWallet</a> · Rails</li>
+          <li><a href="https://github.com/leoalmeidasa/Citizen_control_2.0" target="_blank" rel="noopener">Citizen Control</a> · Rails</li>
+          <li><a href="https://github.com/leoalmeidasa/Netflix_API" target="_blank" rel="noopener">Netflix API</a> · Rails API</li>
+          <li><a href="https://github.com/leoalmeidasa/My_Study_Rspec_TDD" target="_blank" rel="noopener">RSpec / TDD</a> · Ruby</li>
+        </ul>
+      </details>
+    </section>
 
-        <div class="section-title">
-            <h2>About</h2>
-        </div>
+    <section class="wrap" id="now">
+      <h2><span lang="en">Now</span><span lang="pt">Agora</span></h2>
+      <ul class="now">
+        <li>🎯 <span lang="en">Preparing for the <strong>CKA</strong> (Certified Kubernetes Administrator).</span><span lang="pt">Me preparando para a <strong>CKA</strong> (Certified Kubernetes Administrator).</span></li>
+        <li>🧪 <span lang="en">Writing hands-on labs from real problems: VPN MTU/MSS, split DNS, requests/limits, credential rotation.</span><span lang="pt">Escrevendo labs práticos a partir de problemas reais: MTU/MSS em VPN, split DNS, requests/limits, rotação de credenciais.</span></li>
+        <li>🗣️ <span lang="en">Improving my English listening and speaking for international teams.</span><span lang="pt">Melhorando o listening e a conversação em inglês para times internacionais.</span></li>
+        <li>🗺️ <span lang="en">Following my public study track:</span><span lang="pt">Seguindo minha trilha de estudos pública:</span> <a href="https://leoalmeidasa.github.io/trilha/">leoalmeidasa.github.io/trilha</a></li>
+      </ul>
+    </section>
 
-        <div class="row">
-            <div class="col-lg-4" data-aos="fade-right">
-                <img src="assets/img/profile.jpeg" class="img-fluid" alt="">
-            </div>
-            <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-                <p>A focused and dedicated developer, I have a keen interest in software development.
-                    I have studied daily, looking for an opportunity in the job market, in addition
-                    to having a solid foundation achieved by the academic environment.
-                </p>
-                <div class="row">
-                    <div class="col-lg-6">
-                        <ul>
-                            <li><i class="icofont-rounded-right"></i> <strong>Birthday:</strong> 03 October 1994</li>
-                            <li><i class="icofont-rounded-right"></i> <strong>Email:</strong> leoalmeidasa@gmail.com
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-6">
-                        <ul>
-                            <li><i class="icofont-rounded-right"></i> <strong>City:</strong> Santa Helena - MA</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <section class="wrap" id="contact">
+      <h2><span lang="en">Contact</span><span lang="pt">Contato</span></h2>
+      <p><span lang="en">Open to conversations about DevOps roles, including remote work with international teams.</span><span lang="pt">Aberto a conversas sobre vagas de DevOps, inclusive remotas com times internacionais.</span></p>
+      <div class="cta">
+        <a class="btn primary" href="https://www.linkedin.com/in/leonardoalmeidafranco/" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn" href="mailto:leoalmeidasa@gmail.com">leoalmeidasa@gmail.com</a>
+        <a class="btn" href="https://github.com/leoalmeidasa" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </section>
+  </main>
 
-    </div><!-- End About Me -->
-
-    <!-- ======= Interests ======= -->
-    <div class="interests container">
-
-        <div class="section-title">
-            <h2>Interests</h2>
-        </div>
-
-        <div class="row">
-            <div class="col-lg-3 col-md-4">
-                <div class="icon-box">
-                    <i class="ri-global-line" style="color: #ffbb2c;"></i>
-                    <h3>Software Development</h3>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-                <div class="icon-box">
-                    <i class="ri-database-2-line" style="color: #5578ff;"></i>
-                    <h3>Machine Learning</h3>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-                <div class="icon-box">
-                    <i class="ri-code-s-slash-fill" style="color: #28a745;"></i>
-                    <h3>Software Engineering</h3>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-                <div class="icon-box">
-                    <i class="ri-file-list-3-line" style="color: #47aeff;"></i>
-                    <h3>Algorithms</h3>
-                </div>
-            </div>
-        </div>
-    </div><!-- End Interests -->
-</section><!-- End About Section -->
-
-
-<!-- ======= Education Section ======= -->
-<section id="education" class="services">
-    <div class="container">
-        <div class="section-title">
-            <h2>Education</h2>
-        </div>
-        <div class="row">
-            <div class="col-lg-12" data-aos="fade-up" style="display: inline-block;">
-
-
-                <div class="col-md-4 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100"
-                     style="padding:0 0;padding-bottom: 5px;display: inline-block;">
-                    <img src="assets/img/education/Sapiens.png" class="img-fluid" alt="">
-                    <!-- <h4 style="text-align:left;"><a href="https://www.asu.edu/" target="_blank" style="color:#12d640">Arizona State University</a><br> </h4> -->
-                    <p style="text-align:left;color:#fff;padding: 5px 10px;"><em>Bachelor of Information Systems</em>
-                    </p>
-                    <h5 style="text-align:left;padding: 0 10px;">July 2021</h5>
-                    <h6 style="text-align:left;color:#fff;padding: 0 10px;">Relevant Coursework</h6>
-                    <ul style="text-align:left;color:#fff;">
-                        <li>Distributed Database Systems</li>
-                        <li>Java language programming</li>
-                        <li>Foundation Of Algorithms</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="portfolio">
-        <div class="container">
-            <div class="section-title">
-                <h2>Online Certification</h2>
-            </div>
-
-            <div class="row portfolio-container" style="position: relative; height: 437.75px;">
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app" style="position: absolute; left: 0; top: 0;">
-                    <div class="portfolio-wrap">
-                        <img src="assets/img/certification/logo.svg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Ruby Puro</h4>
-                            <div class="portfolio-links">
-                                <a href="https://certificates.digitalinnovation.one/98BFFEEA" target="_blank"
-                                   title="Certificate"><i class="bx bx-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-</section>
-<!-- End Education Section -->
-
-<!-- Start Project Section -->
-<section id="portfolio" class="portfolio">
-    <div class="container">
-
-        <div class="section-title">
-            <h2>Projects</h2>
-        </div>
-
-        <div class="row portfolio-container">
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                <h4>Bank</h4>
-                <div class="portfolio-wrap">
-                    <img src="assets/img/project/bank.png" class="img-fluid" alt="">
-                    <div class="portfolio-info">
-                        <div class="portfolio-links">
-                            <a href="projects/bank.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe"
-                               class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                <h4>Citizen Control</h4>
-                <div class="portfolio-wrap">
-                    <img src="assets/img/project/citizen_control.png" class="img-fluid" alt="">
-                    <div class="portfolio-info">
-                        <div class="portfolio-links">
-                            <a href="projects/citizencontrol.html" data-gall="portfolioDetailsGallery"
-                               data-vbtype="iframe" class="venobox" title="Project Details"><i
-                                    class="bx bx-info-circle"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                <h4>Crypto Wallet</h4>
-                <div class="portfolio-wrap">
-                    <img src="assets/img/project/cryptowallet.png" class="img-fluid" alt="">
-                    <div class="portfolio-info">
-                        <div class="portfolio-links">
-                            <a href="projects/crypto.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe"
-                               class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- End Project Section -->
-
-
-<!-- Start Skills Section -->
-
-<section id="skills" class="services">
-    <div class="container">
-        <div class="section-title">
-            <h2>Skills</h2>
-        </div>
-        <div class="row">
-            <div class="col-lg-12" data-aos="fade-up">
-                <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100"
-                     style="background:#fff">
-                    <h4 style="text-align:left;color:#09203a">Languages and Databases</h4>
-                    <p style="text-align:left;">
-                        <img src="https://www.vectorlogo.zone/logos/ruby-lang/ruby-lang-horizontal.svg"
-                             alt="vectorlogo.zone" height="50" width="150">
-                        <img src="https://www.vectorlogo.zone/logos/java/java-horizontal.svg" alt="vectorlogo.zone"
-                             height="50" width="120">
-                        <img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg" alt="vectorlogo.zone">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg"
-                             alt="upload.wikimedia.org" height="60" width="90">
-                        <img src="https://www.vectorlogo.zone/logos/mysql/mysql-horizontal.svg" alt="vectorlogo.zone"
-                             height="70" width="130">
-                        <img src="https://www.vectorlogo.zone/logos/postgresql/postgresql-horizontal.svg"
-                             alt="vectorlogo.zone" height="50" width="190">
-
-                    </p>
-                </div>
-                <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="lefade-up" data-aos-delay="100"
-                     style="background:#fff">
-                    <h4 style="text-align:left;color:#09203a">Frameworks</h4>
-                    <p style="text-align:left;">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Ruby_On_Rails_Logo.svg"
-                             alt="upload.wikimedia.org" height="60" width="90">>
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg" 
-                             alt="Vue.js Logo" height="60" width="90">
-                        <img src="https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-ar21.svg"
-                             alt="vectorlogo.zone">
-                    </p>
-                </div>
-                <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="lefade-up" data-aos-delay="100"
-                     style="background:#fff">
-                    <h4 style="text-align:left;color:#09203a">Tools</h4>
-                    <p style="text-align:left;">
-                        <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg" alt="vectorlogo.zone">
-                        <img src="https://www.vectorlogo.zone/logos/github/github-ar21.svg" alt="vectorlogo.zone">
-                        <img src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-ar21.svg"
-                             alt="vectorlogo.zone">
-                        <img src="https://www.vectorlogo.zone/logos/heroku/heroku-ar21.svg" alt="vectorlogo.zone">
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- End Skills Section -->
-
-<!-- Start Links section -->
-<section id="links" class="services">
-    <div class="container">
-        <div class="section-title">
-            <h2>Resume & Links</h2>
-        </div>
-        <div class="row">
-            <div class="col-md-3 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
-                <a href="https://drive.google.com/file/d/10WHTKxevb-sAfhsY0Ye0DVFOEhkUlg7P/view?usp=drive_link"
-                   target="_blank">
-                    <div class="icon"><i class="icofont-page"></i></div>
-                </a>
-                <h4 class="title"><a
-                        href="https://drive.google.com/file/d/10WHTKxevb-sAfhsY0Ye0DVFOEhkUlg7P/view?usp=drive_link"
-                        target="_blank">Resume</a></h4>
-                <p class="description" style="color:#fff;">The link contains downloadable resume</p>
-            </div>
-        </div>
-    </div>
-</section> <!--End Links Section -->
-
-<!-- Vendor JS Files -->
-<script src="assets/vendor/jquery/jquery.min.js"></script>
-<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-<script src="assets/vendor/php-email-form/validate.js"></script>
-<script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-<script src="assets/vendor/counterup/counterup.min.js"></script>
-<script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-<script src="assets/vendor/venobox/venobox.min.js"></script>
-<script src="assets/vendor/typed.js/typed.min.js"></script>
-<script type="text/javascript">
-    var typed = new Typed('.typing', {
-        strings: ["Developer", "Developer Ruby On Rails", "Programmer"],
-        loop: true,
-        typeSpeed: 65,
-        backSpeed: 65
-    });
-</script>
-
-<!-- Template Main JS File -->
-<script src="assets/js/main.js"></script>
-
+  <footer class="wrap foot">
+    <p>© <span id="year">2026</span> Leonardo Almeida · <span lang="en">No trackers, no cookies.</span><span lang="pt">Sem rastreadores, sem cookies.</span></p>
+  </footer>
 </body>
-
 </html>
